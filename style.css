@@ -1,0 +1,72 @@
+*{
+    margin:10px;
+    padding:10px;
+}
+#reviews{
+    display:grid;
+    grid-template-areas:'myArea1 myArea1 myArea2 myArea2' 
+                        'myPic myArea3 myArea3 myArea3';
+}
+#j1{
+    grid-area:myArea1;
+    border: 0px ;
+}
+#j1 .text{
+    border-radius:20px;
+    background-color:black;
+    color:white;
+}
+.junior .name{
+    display:inline;
+}
+#j2{
+    grid-area:myArea2;
+}
+.junior{
+    display:inline-block;
+    border:3px solid black;
+    border-radius:20px;
+}
+.junior img{
+    display:inline;
+    width:50px;
+    height:40px;
+    margin:4px;
+    padding:0;
+    border-radius:30px;
+}
+#pic{
+    grid-area:myPic;
+    margin:0px;
+    padding:0px;
+}
+#pic img{
+    border-radius:20px;
+    margin:0px;
+    padding:0px;
+    width:300px;
+    height:250px;
+}
+.manager{
+    grid-area:myArea3;
+    display:block;
+    border:3px solid black;
+    border-radius:20px;
+    background-color:black;
+    color:white;
+    margin:0px;
+    padding:0px;
+    margin-left:10px;
+}
+#foot{
+    border:3px solid black;
+    border-radius:20px;
+    text-align:center;
+}
+#foot img{
+    width:50px;
+    height:40px;
+    margin:4px;
+    padding:0;
+    border-radius:30px;
+}
